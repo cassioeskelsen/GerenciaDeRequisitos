@@ -1,0 +1,279 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "from django.db import  models\nfrom sys import *\n\n\nclass Project(models.Model):\n    name = models.CharField(max_length=60)\n    startDate = models.DateTimeField()\n    \n    \n",
+			"file": "www/models.py",
+			"file_size": 171,
+			"file_write_time": 1321925788000000,
+			"settings":
+			{
+				"buffer_size": 171,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".ropeproject/config.py",
+			"settings":
+			{
+				"buffer_size": 3462,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "settings.py",
+			"settings":
+			{
+				"buffer_size": 4528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "from django.conf.urls.defaults import patterns, include, url\nimport django_pdb\n\n\n# Uncomment the next two lines to enable the admin:\nfrom django.contrib import admin\nadmin.autodiscover()\n\n\nurlpatterns = patterns('',\n    # Examples:\n    # url(r'^$', 'GerenciaDeRequisitos.views.home', name='home'),\n    # url(r'^GerenciaDeRequisitos/', include('GerenciaDeRequisitos.foo.urls')),\n\n    # Uncomment the admin/doc line below to enable admin documentation:\n    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),\n\n    # Uncomment the next line to enable the admin:\n    # url(r'^admin/', include(admin.site.urls)),\n)\n",
+			"file": "urls.py",
+			"file_size": 639,
+			"file_write_time": 1321925824000000,
+			"settings":
+			{
+				"buffer_size": 623,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 115.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/models.py",
+					"settings":
+					{
+						"buffer_size": 171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".ropeproject/config.py",
+					"settings":
+					{
+						"buffer_size": 3462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "settings.py",
+					"settings":
+					{
+						"buffer_size": 4528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3750,
+								3750
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1311.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "urls.py",
+					"settings":
+					{
+						"buffer_size": 623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
