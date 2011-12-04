@@ -1,6 +1,7 @@
 # Piloto de Sistema para Controle De Requisitos de Software
 
 **Autor**: Cássio Rogério Eskelsen
+
 Disciplina Engenharia de Software 1
  
 ## Objetivo
@@ -10,12 +11,14 @@ O objetivo dessa ferramenta é ser um piloto de ferramenta de Controle de Requis
 ## Motivação
 
 Uma das principais dificuldades que pode ser percebida na Gestão de Requisitos é a dificuldade de consultá-los rapidamente durante o desenvolvimento, bem como mantê-los atualizados.
+
 A ferramenta proposta armazena, além de no banco de dados interno, o conteúdo do requisito junto ao repositório do código fonte, utilizando para isso ferramenta de controle de versão.
 
 ## Funcionamento
 
 O sistema permite cadastrar vários projetos de software. No cadastro do projeto é apontado em qual diretório está ou estará o código fonte do sistema. Se esse diretório ainda não for controlado via ferramenta de controle de versão, um “repositório” é automaticamente inicializado. Também é criada um subdiretório de nome “requisities”
 Nesta versão piloto está sendo utilizando o sistema de controle de versão distribuído GIT[1] .
+
 O cadastro de projeto permite ainda o cadastro dos atores envolvidos com o projeto.
 
 Os tipos de requisito (Funcional, Não Funcional, Regra de Negócio, etc) podem ser livremente cadastro.
@@ -53,9 +56,13 @@ Para executar usando o servidor de testes do projeto Django, siga os seguintes p
 ## Links
 
 [1] http://git-scm.com/
+
 [2] http://python.org/
+
 [3] https://www.djangoproject.com/
+
 [4] http://gitorious.org/git-python
+
 [5] https://github.com/cassioeskelsen/GerenciaDeRequisitos
 
 ## Projetos com o mesmo propósito:
