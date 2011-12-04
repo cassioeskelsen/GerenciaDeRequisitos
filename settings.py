@@ -5,6 +5,7 @@ import django
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
+REPO_ROOT = "/Users/eskelsen/tmp/testes_repo"
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
@@ -36,7 +37,7 @@ TIME_ZONE = 'America/Chicago'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 SITE_ID = 1
 
@@ -108,9 +109,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'GerenciaDeRequisitos.urls'
 
 TEMPLATE_DIRS = (
-    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
+    SITE_ROOT + "/templates"
 )
 
 INSTALLED_APPS = (
